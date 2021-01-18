@@ -3,7 +3,7 @@ package com.hackerrank.practice;
 import com.hackerrank.practice.array.Java2DArray;
 
 /**
- * Hello world!
+ * The main class
  *
  */
 public class App 
@@ -12,6 +12,5 @@ public class App
     {
         Challenge challenge = new Java2DArray();
         challenge.solution();
-
     }
 }

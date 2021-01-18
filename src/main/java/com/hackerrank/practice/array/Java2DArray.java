@@ -1,13 +1,16 @@
 package com.hackerrank.practice.array;
 
 import com.hackerrank.practice.Challenge;
+import org.apache.log4j.Logger;
+
 
 /**
  * hackerrank challenge link: https://www.hackerrank.com/challenges/java-2d-array/problem
  */
 public class Java2DArray implements Challenge {
-
+    private static final Logger LOGGER = Logger.getLogger(Java2DArray.class);
     public void solution() {
+
         int [][] arr = new int[6][6];
 
         // fill up the 2D array with zeros
